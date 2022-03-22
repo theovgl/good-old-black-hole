@@ -13,6 +13,5 @@ chrome.runtime.onMessage.addListener((request) => {
 			bhDate.style.color = "#ff3636";
 
 		bhDate.innerText = daysCount + " days left";
-		console.log(daysLeft);
 	}
 })

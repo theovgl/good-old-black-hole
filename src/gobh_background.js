@@ -1,5 +1,4 @@
 let callback = function(details) {
-	console.log(details)
 	chrome.tabs.sendMessage(details.tabId, {status: "loaded"})
 }
 

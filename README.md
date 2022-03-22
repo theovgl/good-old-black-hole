@@ -6,10 +6,10 @@ The countdown is for some students a good way to keep **motivated** and **avoid 
 
 ## Todo
 - User interface with some settings
-  - [ ] Display date on hover
   - [ ] Display or hide the smiley
   - [ ] Text color settings
   - [ ] Display both date and countdown
+  - [x] Display date on hover
 
 ## Screenshots
 ### Before

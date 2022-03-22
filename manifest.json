@@ -18,5 +18,8 @@
 	],
 	"background": {
 		"service_worker": "src/gobh_background.js"
+	},
+	"icons": {
+		"128": "/assets/img/icon128.png"
 	}
 }

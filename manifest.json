@@ -1,0 +1,22 @@
+{
+	"name": "Good Old Blackhole",
+	"version": "0.1",
+	"manifest_version": 3,
+	"permissions": [
+		"webRequest"
+	],
+	"host_permissions": ["*://profile.intra.42.fr/*"],
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": [
+				"https://profile.intra.42.fr/",
+				"https://profile.intra.42.fr/users/*"
+			],
+			"js": ["src/good-old-blackhole.js"]
+		}
+	],
+	"background": {
+		"service_worker": "src/gobh_background.js"
+	}
+}

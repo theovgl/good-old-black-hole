@@ -1,6 +1,8 @@
 {
-	"name": "Good Old Blackhole",
-	"version": "0.1",
+	"name": "Good Old Blac Hole",
+	"version": "0.1.1",
+	"description": "Bringing the black hole countdown back",
+	"author": "Théo Vogel",
 	"manifest_version": 3,
 	"permissions": [
 		"webRequest"

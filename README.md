@@ -9,7 +9,7 @@ The countdown is for some students a good way to keep **motivated** and **avoid 
   - [ ] Display or hide the smiley
   - [ ] Text color settings
   - [ ] Display both date and countdown
-  - [x] Display date on hover
+  - [x] ~~Display date on hover~~
 
 ## Screenshots
 ### Before

@@ -9,6 +9,7 @@ The countdown is for some students a good way to keep **motivated** and **avoid 
   - [ ] Display or hide the smiley
   - [ ] Text color settings
   - [ ] Display both date and countdown
+  - [ ] Firefox version
   - [x] ~~Display date on hover~~
 
 ## Screenshots

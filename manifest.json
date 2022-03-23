@@ -3,11 +3,11 @@
 	"version": "0.1.1",
 	"description": "Bringing the black hole countdown back",
 	"author": "Théo Vogel",
-	"manifest_version": 3,
+	"manifest_version": 2,
 	"permissions": [
-		"webRequest"
+		"webRequest",
+		"*://profile.intra.42.fr/*"
 	],
-	"host_permissions": ["*://profile.intra.42.fr/*"],
 	"content_scripts": [
 		{
 			"run_at": "document_start",
@@ -19,7 +19,8 @@
 		}
 	],
 	"background": {
-		"service_worker": "src/gobh_background.js"
+		"scripts": ["src/gobh_background.js"],
+		"persistent": true
 	},
 	"icons": {
 		"128": "/assets/img/icon128.png"

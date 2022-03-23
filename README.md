@@ -1,5 +1,5 @@
 # Good Old Black Hole
-Bringing the black hole countdown back
+A web browser extension that brings the black hole countdown back.
 
 ## Why ?
 The countdown is for some students a good way to keep **motivated** and **avoid procrastination**.
@@ -9,7 +9,8 @@ The countdown is for some students a good way to keep **motivated** and **avoid 
   - [ ] Display or hide the smiley
   - [ ] Text color settings
   - [ ] Display both date and countdown
-  - [x] Display date on hover
+  - [ ] Firefox version
+  - [x] ~~Display date on hover~~
 
 ## Screenshots
 ### Before

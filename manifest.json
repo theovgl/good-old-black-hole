@@ -1,11 +1,12 @@
 {
 	"name": "Good Old Black Hole",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Bringing the black hole countdown back",
 	"author": "Théo Vogel",
 	"manifest_version": 3,
 	"permissions": [
-		"webRequest"
+		"webRequest",
+		"webNavigation"
 	],
 	"host_permissions": ["*://profile.intra.42.fr/*"],
 	"content_scripts": [

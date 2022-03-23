@@ -9,7 +9,7 @@ const filter = {
 };
 
 // Workaround to wake up the service worker
-chrome.webNavigation.onHistoryStateUpdated.addListener(() => {
+chrome.webNavigation.onBeforeNavigate.addListener((details) => {
 	console.log('wake me up');
 });
 

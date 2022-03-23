@@ -8,8 +8,14 @@ const filter = {
 	types: ['xmlhttprequest'],
 };
 
+// Workaround to wake up the service worker
+chrome.webNavigation.onHistoryStateUpdated.addListener((details) => {
+	console.log('wake me up');
+});
+
 chrome.webRequest.onCompleted.addListener(
 	callback,
 	filter,
 	[],
 );
+

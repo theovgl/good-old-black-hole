@@ -1,5 +1,5 @@
 # Good Old Black Hole
-Bringing the black hole countdown back
+A web browser extension that brings the black hole countdown back.
 
 ## Why ?
 The countdown is for some students a good way to keep **motivated** and **avoid procrastination**.
